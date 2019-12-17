@@ -1,0 +1,25 @@
+/* .left {
+  border-left: 1.5px solid #b7b7b7;
+  padding-left: 10px;
+}
+
+@media (min-width: 777px) {
+  div.experience:not(:last-child) .left {
+    border: none;
+  }
+} */
+
+.left {
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+
+.experience:last-child .left {
+  border: none;
+}
+
+@media (min-width: 778px) {
+  .left {
+    border-left: 1.5px solid #b7b7b7;
+  }
+}
